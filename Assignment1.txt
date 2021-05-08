@@ -1,0 +1,347 @@
+Assignment Solution 
+Que-01
+class Assignment1
+{
+	public static void main (String args[])
+	{
+		System.out.println("Hello");
+		System.out.println("I am Saurabh");
+	}
+}	
+
+Que-02
+
+class Assignment2
+{
+	public static void main (String args[])
+	{ 
+		int a=74;
+		int b=36;
+		int sum=a+b;
+		System.out.println("Sum:"+sum);
+		
+	}
+}
+
+Que-03
+class Assignment3
+{
+	public static void main (String args[])
+	{ 
+		int a=50;
+		int b=3;
+		int div=a/b;
+		System.out.println("Div:"+div);
+		
+	}
+}
+
+Que-04
+class Assignment4
+{
+	public static void main (String args[])
+	{ 
+		int a=-5,b=8,c=6;
+		int d=a+b*c;
+		int e=55,f=9;
+		int g=(e+f)%f;
+		int h=20,i=-3,j=5,k=8;
+		int l=h+i*j/k;
+		int m=5,n=15,o=3,p=2,q=8,r=3;
+		int s=m+n/o*p-q%r;
+		
+		System.out.println("Div:"+d);
+		System.out.println("Div:"+g);
+		System.out.println("Div:"+l);
+		System.out.println("Div:"+s);
+	}
+}
+
+Que-05
+import java.util.Scanner;
+class Assignment5
+{
+	public static void main (String args[])
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Two Numbers:");
+		int i = sc.nextInt();
+		int j = sc.nextInt();
+		int k = i*j;
+		System.out.println("Product:"+k);
+	}
+}
+
+Que-06
+import java.util.Scanner;
+class Assignment6
+{
+	public static void main (String args[])
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Two Numbers:");
+		int i = sc.nextInt();
+		int j = sc.nextInt();
+		int sum = i+j;
+		int sub = i-j;
+		int mul = i*j;
+		int div = i/j;
+		int mod = i%j;
+		System.out.println("Summation:"+sum);
+		System.out.println("Subtraction:"+sub);
+		System.out.println("Multiplication:"+mul);
+		System.out.println("Division:"+div);
+		System.out.println("Mod:"+mod);
+	}
+}
+
+Que-07
+import java.util.Scanner;
+class Assignment7
+{
+	public static void main (String args[])
+	{
+	System.out.println("Enter Number:");
+	Scanner sc= new Scanner(System.in);
+	int i = sc.nextInt();
+	int t=0;
+	System.out.println("Output:");hh
+	
+		for(int j=1;j<=10;j++)
+		{
+			t=i*j;
+		
+		System.out.println(t);
+		}
+	
+	}
+}
+
+Que-08
+class Assignment8
+{
+	public static void main (String args[])
+	{
+		System.out.println ("   j     a   v          v      a "    );
+		System.out.println ("   j   a   a   v       v     a   a "  );
+		System.out.println ("j  j  aaaaaaa    v   v      aaaaaaa   " );
+		System.out.println (" j j a       a     v       a       a ");
+	}
+}	
+
+Que-09	
+	class Assignment9
+{
+	public static void main (String args[])
+	{
+	 double i = ((25.5*3.5-3.5*3.5)/(40.5-4.5));
+	 System.out.println(i);
+	}
+}
+
+
+Que-10
+class Assignment10
+{
+	public static void main (String args[])
+	{
+	 double i = 4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11));
+	 System.out.println(i);
+	}
+}
+
+Que-11
+class Assignment11
+{
+	public static void main (String args[])
+	{
+	double r=7.5;
+	double area=Math.PI*r*r;
+	double perimeter = 2*Math.PI*r;
+	System.out.println("Area:"+area);
+	System.out.println("Area:"+perimeter);
+	
+	}
+}
+
+Que-12
+	
+	import java.util.Scanner;
+class Assignment12
+{
+	public static void main (String args[])
+	{
+		System.out.println("Enter Three Numbers:");
+		Scanner sc = new Scanner (System.in);
+		int i = sc.nextInt();
+		int j = sc.nextInt();
+		int k = sc.nextInt();
+		int avg = (i+j+k)/3;
+		System.out.println("Avg:"+avg);
+	}
+}	
+
+Que-13
+
+class Assignment13
+{
+	public static void main (String args[])
+	{
+	float width =5.6f;
+	float height=8.5f;
+	float area = width*height;
+	float perimeter = 2*(width+height);
+	System.out.println("Area:"+area);
+	System.out.println("Perimeter:"+perimeter);
+	
+	}
+}
+Que-14
+
+class Assignment14A
+{
+	public static void main ( String args[])
+	{
+		String S1 = " * * * * * * =================================== \n  * * * * *  ===================================";
+		String S2 = " ===============================================" ;
+		
+		for ( int i = 0; i<4; i++)
+		{
+			System.out.println(S1);
+		}
+			System.out.println ( " * * * * * * =================================== " );
+		for ( int j = 0 ; j<6; j++)
+		{
+			System.out.println(S2);
+		}
+	}
+}
+
+
+Que-15
+class Assignment15
+{
+	public static void main (String args[])
+	{
+		int a=10,b=20;
+		System.out.println("Before a :"+a);
+		System.out.println("Before b :"+b);
+		
+		int temp;
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("After a :"+a);
+		System.out.println("After b :"+b);
+		
+	}
+}
+
+Que-16
+
+class Assignment16
+{
+	public static void main ( String args [])
+	{
+		System.out.println("  +\"\"\"\"\" + ");
+		System.out.println("[ | o o | ]");
+		System.out.println("  |  ^  | ");
+		System.out.println("  |' - '| ");
+		System.out.println("  |-----| ");
+	}
+}
+
+Que-17
+import java.util.Scanner;
+class Assignment17
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter 1st Binary Number : ");
+		String x = sc.nextLine();
+		System.out.println("Enter 2nd Binary Number : ");
+		String y = sc.nextLine();
+		
+		int i = Integer.parseInt(x, 2);
+		int j = Integer.parseInt(y, 2);
+		int k = i+j;
+		
+		System.out.println("i :"+Integer.toBinaryString(i) );
+		System.out.println("j :"+Integer.toBinaryString(j) );
+		System.out.println("k :"+Integer.toBinaryString(k) );
+	}
+}
+
+Que-18
+
+import java.util.Scanner;
+class Assignment18
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Enter 1st Binary Number : ");
+		String x = sc.nextLine();
+		System.out.println("Enter 2nd Binary Number : ");
+		String y = sc.nextLine();
+		
+		int i = Integer.parseInt(x,2);
+		int j = Integer.parseInt(y,2);
+		int k= i*j;
+		
+		System.out.println("i :"+Integer.toBinaryString(i) );
+		System.out.println("j :"+Integer.toBinaryString(j) );
+		System.out.println("k :"+Integer.toBinaryString(k) );
+	}
+}
+
+Que-19
+class Assignment19
+{
+	public static void main (String args[])
+	{
+		int binary []=new int [20];
+		int index = 0, n=5;
+		while (n>0)
+		{
+			binary [index++]=n%2;
+			n=n/2;
+			
+		}System.out.print (index +" Value of index");
+			for ( int i = index-1;i>=0;i--)
+			{
+				System.out.print (binary[i]);
+			}
+	}
+}	
+Que-20
+class Assignment20
+{
+	public static void main(String args[])
+	{
+		int =15;
+		char h[]= new int [100];
+		int i=1;rem;
+		while(a!=0)
+		{
+			rem = a%16;
+			if (rem<=9)
+			{
+				rem=rem+48;
+			}
+			else
+				{
+					rem=rem+55;
+				}
+				h[i]=(char)rem;
+				a=a/16;
+				i++;
+		}
+			System.out.print("Hexadecimal number is: ");
+		for(int j = i; j>=1; j--)
+		{
+			System.out.print(h[j]);
+		}
